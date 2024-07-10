@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login signup.css">
+	<title>patientdetails</title>
+	<marquee style="background-color: #24305e;padding:10px;">
+    <table>
+<tr>
+<td><img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></td>
+<td><b><p id="p1">LAmrita Health Services</p></b>
+</td>
+</tr>
+</table>
+  </marquee>
+</head>
+<body>
+	<h6 align="middle" style="color:#24305E; ;margin-top:10px">PATIENT DETAILS</h6>
+	<form>
+		<table class="s1" align="center" cellspacing="10px" style="background-color:rgb(36,48,94,0.3);" width=45%>
+			<tr>
+				<td style="font-size:30; color: #24305E;">Patient Name:</td>
+				<td><input type="text" name="patient name" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;width:85%" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:30; color: #24305E;">gender:</td>
+				<td><select name="select" required style="padding:10px 110px;">
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+		</select></td>
+			</tr>
+			<tr>
+				<td style="font-size:30; color: #24305E;">Age</td>
+				<td><input type="tel" name="Age" minlength="1" maxlength="3" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:30; color: #24305E;">MobileNo:</td>
+				<td><input type="tel" name="mobileNo" minlength="10" maxlength="11" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;width: 85%;" pattern="[0-9]{11}" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:30; color: #24305E;">E-mail:</td>
+				<td><input type="email" name="e-mail" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;"></td>
+			</tr>
+			<tr>	
+				<td style="font-size:30; color: #24305E;">DOB:</td>
+				<td><input type="date" name="date of birth" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:30; color: #24305E;">Appointment Date:</td>
+				<td><input type="date" name="Appointment Date" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>>
+			</tr>
+			<tr>	
+				<td style="font-size:30; color: #24305E;">Time slot:</td>
+				<td align="left"><input type="time" name="time" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input id="k" type="Reset" value="Reset">
+					<a href="#popup2"><input type="button" value="Book" id="k"></a>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<div id="popup2" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+    	<h2 align="middle">Amrita Health care services</h2>
+    	<p align="middle">Your slot has been booked.<br>You can pay once your consultation is done.</p>
+    	<h4 align="middle">Thankyou.<img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></h4>
+    	<p align="center"><a href="uid main page.html"><input type="button" value="BACK" id="k" style="padding:10px 2px;"></a></p>
+    	</div>
+    </div>
+  </div>
+
+</body>
+</html>

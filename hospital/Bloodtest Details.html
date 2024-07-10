@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login signup.css">
+	<title>Bloodtest Details</title>
+	<marquee style="background-color: #24305e;padding:10px;">
+    <table>
+<tr>
+<td><img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></td>
+<td><b><p id="p1">Amrita Health Services</p></b>
+</td>
+</tr>
+</table>
+  </marquee>
+</head>
+<body style="background-image: url('ss32.jpg');">
+	<h6 align="middle" style="color:#24305E; ;margin-top:0px">FILL YOUR DETAILS</h6>
+	<form>
+		<table class="s1" align="center" cellspacing="10px" style="background-color:rgb(36,48,94,0.3);margin-top:-110px;" width=45% >
+			<tr>
+				<td style="font-size:25px; color: #24305E;">First Name:</td>
+				<td><input type="text" name="First name" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;width:85%" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:25px; color: #24305E;">Last Name:</td>
+				<td><input type="text" name="Last name" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;width:85%" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:25px; color: #24305E;">gender:</td>
+				<td><input type="text" name="Gender" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width:85%;" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:25px; color: #24305E;">MobileNo:</td>
+				<td><input type="tel" name="mobileNo" minlength="10" maxlength="11" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;width: 85%;" pattern="[0-9]{11}" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:25px; color: #24305E;">E-mail:</td>
+				<td><input type="email" name="e-mail" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;"></td>
+			</tr>
+			<tr>	
+				<td style="font-size:25px; color: #24305E;">DOB:</td>
+				<td><input type="date" name="date of birth" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>
+			</tr>
+			<tr>
+				<td style="font-size:25px; color: #24305E;">Convinient Date:</td>
+				<td><input type="date" name="Appointment Date" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>>
+			</tr>
+			<tr>	
+				<td style="font-size:25px; color: #24305E;">Select slot:</td>
+				<td align="left"><input type="time" name="time" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ; width: 85%;" required></td>
+			</tr>
+			<tr>	
+				<td style="font-size:25px; color: #24305E;padding:30px;">Mode of Payment:</td>
+				<td align="left">
+					<select name="select" style="padding:10px 60px;color:#24305e;background-color:white;">
+						<option value="Bangalore">Credit & Debit cards</option>
+			<option value="Bangalore">Net Banking</option>
+ 			<option value="Delhi NCR">UPI</option>
+  		<option value="Delhi NCR">Payment after test</option>
+			</select>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input id="k" type="Reset" value="Reset">
+        <a href="#popup1"><input id="k" type="button" value="Done"></a>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+    	<table style="color: black;">
+    	<tr><td>Enter card number</td><td><input type="numbertext"/></td></tr>
+    	<tr><td>Expiry date</td><td><input type="numbertext"/></td></tr>
+    	<tr><td>Enter CVV</td><td><input type="numbertext"/></td></tr>
+    	<tr><td><a href="#popup2"><input type="button" value="next" id="g" style="padding:10px 40px;"></a></td></tr>
+    </table>
+    </div>
+  </div>
+</div>
+<div id="popup2" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+    	<h2 align="middle">Amrita Health care services</h2>
+    	<p align="middle" style="text-align:justify;padding-left:60px;">Your Payment is successful<br><br>
+    	 You will be tested on selected slot</p>
+    	<h4 align="middle">Thankyou.<img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></h4>
+    	<p align="center"><a href="Collecting Blood samples.html"><input type="button" value="BACK" id="g" style="padding:10px 2px;font-size:20px;width:30%;"></a></p>
+    	</div>
+    </div>
+  </div>
+
+
+</body>
+</html>

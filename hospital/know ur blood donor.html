@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login signup.css">
+	<title>know your blood donor</title>
+	<marquee style="background-color: #24305e;padding:10px;">
+    <table>
+<tr>
+<td><img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></td>
+<td><b><p id="p1">Amrita Health Services</p></b>
+</td>
+</tr>
+</table>
+  </marquee>
+</head>
+<body>
+	<h6 align="middle" style="color:#24305E; ;margin-top:10px">KNOW YOUR BLOOD DONOR</h6>
+	<P align="middle" style="color:#24305E;font-size:25px;margin-top:10px"><b>BLOOD TYPE COMPATABILITY</b></P>
+		<table class="l" align="center" cellspacing="0" cellpadding="10px"  bgcolor="white" width =45.5% BORDER="1">
+			<tr bgcolor="pink">
+				<td><b>Blood type</b></td><td><b>Gives</b></td><td><b>Recieves</b></td></tr>
+			<tr><td>A+</td><td>AB+, A+</td><td>A+, A-, O+, O-</td></tr>
+			<tr><td>O+</td><td>O+, A+, B+, AB+</td><td>O+, O-</td></tr>
+			<tr><td>B+</td><td>B+, AB+</td><td>B+, B-, O+, O-</td></tr>
+			<tr><td>AB+</td><td>AB+</td><td>EVERYONE</td></tr>
+			<tr><td>A-</td><td>A+, A-, AB+, AB-</td><td> A-, O-</td></tr>
+			<tr><td>O-</td><td>EVERYONE</td><td> O-</td></tr>
+			<tr><td>B-</td><td>B+, B-, AB+, AB-</td><td>B-, O-</td></tr>
+			<tr><td>AB-</td><td>AB+, AB-</td><td>AB-, A-, B-, O-</td></tr>
+			</table>
+			<table class="m" cellspacing="10px"><tr><td><b>Life is in blood-Donate Blood- give life(click here):</b></td><td><button class="myBtn_multi" id="g">&nbsp&nbspDONOR&nbsp&nbsp&nbsp</button></td></tr>
+			<tr><td><b>To know your Donor(click here):</b></td><td><a href="Reciever.html"><button id="g">RECEIVER</button></a></td></tr></table>
+       <p align="right" style="position:relative;bottom:105px;left:900px;width:40%;"><a href="uid main page.html"><input type="button" value="BACK" id="k"></a></p>
+
+
+		
+    <div class="modal">
+    	<div style="background-color:rgb(36,48,94,0.6);" class="modal-content">
+            <span class="close close_multi">×</span>
+              <form>
+    <table  style="width: 30%; height:10%;">
+      <tr>
+        <td style="font-size:20px;color: #ffffff;">Donor Name:</td>
+        <td><input type="text"  id="myInput" pattern=".{6,}" required name="Donor name" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;"></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">Gender:</td>
+        <td><select name="select" style="padding:8px 165px;color:#24305e;background-color:white;">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    </select></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">Blood Type:</td>
+        <td><select name="select" style="padding:8px 180px;color:#24305e;background-color:white;">
+      <option value="A+">A+</option>
+ <option value="A-">A-</option>
+<option value="B+ ">B+ </option>
+<option value="B-">B-</option>
+<option value="AB+" selected>AB+</option>
+<option value="AB-">AB-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+
+      </select></td></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">MobileNo:</td>
+        <td><input type="tel" name="mobileNo" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;" minlength="10" maxlength="11"  ></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">E-mail:</td>
+        <td><input type="email" name="e-mail" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;"> </td>
+      </tr>
+      <tr>  
+        <td style="font-size:20px; color: #ffffff;">DOB:</td>
+        <td><input type="date" name="date of birth" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;"></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">Availability Date:</td>
+        <td><input type="date" name="Availability Date"style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;"></td>>
+      </tr>
+      <tr>  
+        <td style="font-size:20px; color: #ffffff;">Availability Time:</td>
+        <td align="left"><input type="time" name="time" style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;"></td>
+      </tr>
+      <tr>
+        <td style="font-size:20px; color: #ffffff;">Address:</td>
+        <td style="text-align:center;"><TEXTAREA style="background-color:rgb(36,48,94,0.0);color: #ffffff;border-color: white ;" name="comments" cols="45" rows="8" border-color=""></TEXTAREA><br><a href="#popup2"><input type="button" value="submit" id="g"/></a></td>
+      </tr>
+    </table>
+      </form>
+        </div>
+
+
+        <div id="popup2" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <h2 align="middle">Amrita Health care services</h2>
+      <p align="middle">You saved a Life</p>
+      <h4 align="middle">Thankyou.<img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></h4>
+      <p align="center"><a href="know ur blood donor.html"><input type="button" value="BACK" id="k" style="padding:10px 2px;"></a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <script>
+       
+
+        var modalparent = document.getElementsByClassName("modal");
+
+        var modal_btn_multi = document.getElementsByClassName("myBtn_multi");
+
+        var span_close_multi = document.getElementsByClassName("close_multi");
+
+        function setDataIndex() {
+
+            for (i = 0; i < modal_btn_multi.length; i++)
+            {
+                modal_btn_multi[i].setAttribute('data-index', i);
+                modalparent[i].setAttribute('data-index', i);
+                span_close_multi[i].setAttribute('data-index', i);
+            }
+        }
+
+
+
+        for (i = 0; i < modal_btn_multi.length; i++)
+        {
+            modal_btn_multi[i].onclick = function() {
+                var ElementIndex = this.getAttribute('data-index');
+                modalparent[ElementIndex].style.display = "block";
+            };
+
+            span_close_multi[i].onclick = function() {
+                var ElementIndex = this.getAttribute('data-index');
+                modalparent[ElementIndex].style.display = "none";
+            };
+
+        }
+
+        window.onload = function() {
+
+            setDataIndex();
+        };
+
+        window.onclick = function(event) {
+            if (event.target === modalparent[event.target.getAttribute('data-index')]) {
+                modalparent[event.target.getAttribute('data-index')].style.display = "none";
+            }
+
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+      </script>
+
+</body>
+</html>

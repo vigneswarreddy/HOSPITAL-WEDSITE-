@@ -1,0 +1,218 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="uid css.css">
+	<title>main page</title>
+	<style type="text/css">
+		p{
+			font-size: 25px;
+		}
+		#p1
+		{
+			font-size: 30px;
+			margin: 0px;
+			padding: 10px;
+		}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 22%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #24305E;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #24305E;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+.star-rating {
+  border:solid 1px #ccc;
+  display:flex;
+  flex-direction: row-reverse;
+  font-size:1.0em;
+  justify-content:space-around;
+  padding:0 .2em;
+  text-align:center;
+  width:5em;
+}
+
+.star-rating input {
+  display:none;
+}
+
+.star-rating label {
+  color:#ccc;
+  cursor:pointer;
+}
+
+.star-rating :checked ~ label {
+  color:#f90;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color:#fc0;
+}
+
+/* explanation */
+
+article {
+  background-color:#ffe;
+  box-shadow:0 0 1em 1px rgba(0,0,0,.25);
+  color:#006;
+  font-family:cursive;
+  font-style:italic;
+  margin:4em;
+  max-width:30em;
+  padding:2em;
+}
+	</style>
+</head>
+<body>
+	<marquee style="background-color:#24305E ;">
+		<table>
+			<tr>
+				<td><img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></td>
+				<td><b><p id="p1">Amrita Health Services</p></b>
+				</td>
+			</tr>
+		</table>
+	</marquee>
+	<h3 align="middle" style="color:#24305E; margin-bottom: 0px; margin-top:10px; ">Our Services</h3>
+	<hr color="#F76C6C" width="400" size="2">
+	<table class="s" align="center" cellspacing="20px" cellpadding="20px" bgcolor="white" style="margin-top: 20px;">
+		<tr>
+			<td>
+				<a href="uid doctor consultation.html">
+					<button>
+						<img src="https://cdn1.iconfinder.com/data/icons/medical-health-care-blue-series-set-4/64/b-52-128.png">
+				        <p>Doctor Consultation(Online)</p>
+					</button>
+				</a>
+			</td>
+			<td>
+				<a href="uid doctor consultation.html">
+					<button>
+						<img src="https://cdn0.iconfinder.com/data/icons/medical-health-care-blue-series-set-1/64/a-12-128.png">
+						<p>Doctor Consultation(Offline)</p>
+					</button>
+				</a>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>
+				<a href="know ur blood donor.html">
+					<button>
+						<img src="https://cdn4.iconfinder.com/data/icons/popicon-medical-vol-1/256/24-128.png">
+						<p>&nbsp&nbsp&nbspKnow Your Blood Donor&nbsp&nbsp&nbsp&nbsp</p>
+					</button>
+				</a>
+			</td>
+			<td>
+				<a href="nutrition diet.html">
+					<button>
+						<img src="https://cdn4.iconfinder.com/data/icons/sport-fitness-vol-4-1/512/nutrition_protein_bodybuilding_fitness-128.png">
+						<p>&nbsp&nbsp&nbsp&nbsp&nbspNutrionist & Diet Plan&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+					</button>
+				</a>
+			</td>
+			
+			
+		</tr>
+		
+	</table>
+	
+	
+	<table bgcolor="#5d5d5d" width="100%" cellpadding="20px">
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<p style="font-size: 20px;"><b>For Bookings and Service queries:</b><br>
+				ph:1666 2772 2002<br>
+				Email:bookins@Amritahealthsevices.com<br>
+				<b>For customer Support & Feedback</b><br>
+				Email:customersupport@Amritahealthsevices.com<br>
+				<br>
+				<b>Please rate us and give your valuable feedback</b><br>
+				<a href="feedbackform.html" style="color: white;">feedback</a>&nbsp,&nbsp<a class="button" href="#popup1" style="color: white;">Rate Us</a><br>
+				</p>
+				&nbsp
+				<a href="https://www.google.com/"><img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-256.png" width="50px"></a>&nbsp&nbsp
+					<a href="https://www.facebook.com//"><img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-128.png" width="50px"></a>&nbsp&nbsp
+					<a href="https://twitter.com/?lang=en"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" width="50px"></a>&nbsp&nbsp
+					<a href="https://in.linkedin.com/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-128.png" width="50px"></a>
+			</td>
+		</tr>
+	</table>
+	<div id="popup1" class="overlay">
+	<div class="popup">
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+		<p style="color: #24305E; font-size: 40px; text-align: center;">Rate Us</p>
+        <p style="font-size: 10px; text-align: center; margin: 0px;">
+             <div class="star-rating" style=" margin:0px;">
+               <input type="radio" id="5-stars" name="rating" value="5" />
+               <label for="5-stars" class="star">&#9733;</label>
+               <input type="radio" id="4-stars" name="rating" value="4" />
+               <label for="4-stars" class="star">&#9733;</label>
+               <input type="radio" id="3-stars" name="rating" value="3" />
+               <label for="3-stars" class="star">&#9733;</label>
+               <input type="radio" id="2-stars" name="rating" value="2" />
+               <label for="2-stars" class="star">&#9733;</label>
+               <input type="radio" id="1-star" name="rating" value="1" />
+               <label for="1-star" class="star">&#9733;</label>
+             </div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

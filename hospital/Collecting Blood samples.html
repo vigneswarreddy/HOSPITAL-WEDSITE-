@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="reciever.css">
+	<title>collecting Blood samples</title>
+	<marquee style="background-color: #24305e;padding:2px;color:white;">
+    <table>
+<tr>
+<td><img src="https://cdn4.iconfinder.com/data/icons/hiv-and-aids-2/64/health_care_aids_love_heart_hands_hand-256.png" width="50px"></td>
+<td><b><p id="p1">Amrita Health Services</p></b>
+</td>
+</tr>
+</table>
+  </marquee>
+</head>
+<body style="background-repeat:repeat;background-size:cover;background-image:url('ss32.jpg');">
+      </div>
+	<table align="left" style="position:fixed;bottom:500px;">
+		<tr><td style="font-size: 25px; color: #24305E;align: left;">Select Our Center:</td>
+				<td><select name="select" style="padding:10px 60px;color:#24305e;background-color:white;">
+			<option value="Select our centers"></option>
+			<option value="Bangalore">Bangalore</option>
+ <option value="Delhi NCR">Delhi NCR</option>
+<option value="Mumbai ">Mumbai </option>
+<option value="Chennai">Chennai</option>
+<option value="Pune" selected>Pune</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Gurgaon">Gurgaon</option>
+<option value="Faridabad">Faridabad</option>
+<option value="Ghaziabad">Ghaziabad</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Jaipur">Jaipur</option>
+			</select></td>
+</tr>
+</table>
+  <H1 style="position:fixed;bottom:550px;left:610px;text-shadow:1;">CHOOSE THE TEST TYPE </H1>
+
+	<div class="diamond" onclick="document.getElementById('id01').style.display='block'"style="position:fixed;bottom:420px;left:660px;background: linear-gradient(#000046,#1cb5e0);">
+  <span class="rotate"  style="position:relative;bottom:-40px;left:30px;color: white;"><B>HEART</B></span>
+  </div>
+		<div class="diamond" onclick="document.getElementById('id02').style.display='block'"style="position:fixed;bottom:420px;left:820px;background: linear-gradient(#c33764,#1d2671);">
+  <span class="rotate"   style="position:relative;bottom:-40px;left:30px;color: white;"><b>LUNGS</b></span>
+  </div>
+
+	<div class="diamond" onclick="document.getElementById('id03').style.display='block'" style="position:fixed;bottom:310px;left:580px;background: linear-gradient(#ed4264,#ffedbc);">
+  <span class="rotate"   style="position:relative;bottom:-40px;left:30px;color: white;"><b>THYROID</b></span>
+  </div>
+
+	<div class="diamond" onclick="document.getElementById('id04').style.display='block'" style="position:fixed;bottom:310px;left:740px;background: linear-gradient(#0fd64f,#f8ef42);">
+  <span class="rotate"  style="position:relative;bottom:-40px;left:30px;color: white;"><b>KIDNEYS</b></span>
+  </div>
+
+
+		<div class="diamond" onclick="document.getElementById('id05').style.display='block'" style="position:fixed;bottom:310px;left:900px;
+   background: linear-gradient(#ed008c,#fff000);">
+  <span class="rotate"  style="position:relative;bottom:-40px;left:30px;color: white;"><b>COVID-19</b></span>
+  </div>
+
+	<div class="diamond" onclick="document.getElementById('id06').style.display='block'" style="position:fixed;bottom:200px;left:660px; background: linear-gradient(#3d7eea,#ffe47a);">
+  <span class="rotate"  style="position:relative;bottom:-40px;left:30px;color: white;"><b>LIVER</b></span>
+  </div>
+
+	<div class="diamond" onclick="document.getElementById('id07').style.display='block'" style="position:fixed;bottom:200px;left:820px;background: linear-gradient(#037ade,#03e5b7);">
+  <span class="rotate"  style="position:relative;bottom:-40px;left:30px;color: white;"><b>FEVER</b></span>
+  </div>
+<p align="right" style="position:relative;top:590px;"><a href="uid main page.html"><input type="button" value="BACK" id="k"style="font-size:18px;"></a></p>
+
+
+<div id="id01" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+      <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>CHOLESTEROL TEST&nbsp</b>
+            <input type="checkbox" id="mycheck" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                12 hours fasting is required before the test. This means you are not supposed to consume food or any other fluids, except water.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>BLOOD TEST&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                No special preparation is required for the test.<br>Blood tests can indicate your risk of having heart disease or other health conditions.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+        </tr>
+      </table>
+
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id01').style.display='none';
+        myfunction();" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+        </table>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<div id="id02" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+      <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>PULMUNORY&nbspFUNCTION<br>TEST&nbsp</b> 
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                Do not exercise heavily for at least 30 minutes before the test.
+                 Do not wear tight clothing that makes it difficult for you to take a deep breath.
+                                      Do not eat a large meal within 2 hours before the test.</p>
+                <p>
+                   Report Delivery: 
+                    Next Day<br> 
+                     ₹ 450      
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>PLETHYSMOGRAPHY&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                If you are on oxygen, you will usually be asked to be off oxygen during this test.Let the staff know if you have difficulty in closed spaces.
+</p>
+                <p>
+                   Report Delivery: 
+                    2 Days after test<br> 
+                     ₹ 400       
+                </p>
+              </td>
+        </tr>
+      </table>
+       
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id02').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+        </table>
+      </div>
+    </div>
+  </form>
+</div>
+<div id="id03" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+       <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>THYROID&nbspSTIMULATING<br>HARMONE TEST&nbsp</b>
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                 You don't need to fast before doing a thyroid function test. However, not fasting is sometimes linked to a lower TSH level. This means your results might not pick up on mild (subclinical) hypothyroidism — where your TSH levels are only mildly elevated.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>THYROID PANEL TEST&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                No special preparation is required for the blood draw. In order to ensure the accuracy of the thyroid panel analysis, tell your doctor about any prescription or over-the-counter medications you are taking. </p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+        </tr>
+      </table>
+    
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id03').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+        </table>
+      </div>
+    </div>
+  </form>
+</div>
+  <div id="id04" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+       <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>BLOOD TEST FOR GRF&nbsp</b>
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                12 hours overnight fasting is required before the test. This means you are not supposed to consume food or any other fluids, except water.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>URINE TEST FOR ALBUMIN</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                At a random time. This is usually after the first time you urinate in the morning.
+Over a 24-hour period.
+Over a specific period of time, such as 4 hours or overnight.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+        </tr>
+      </table>
+
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id04').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+        </table>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id05" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+       <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>MOLECULAR(RT-PCR)TEST&nbsp</b>
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                No special preparation is required for the test.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 400       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>COVID-19 ANTIGEN TESTS&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                No special preparation is required for the test.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 350       
+                </p>
+              </td>
+        </tr>
+      </table>
+
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id05').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id05').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+    </table>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id06" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+       <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>ALANINER&nbspAMINO&nbspTRANSFERASE TEST(ALT)&nbsp</b>
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+               When ALT is tested alone, fasting is not necessary. For this reason, you should check with your doctor about the details of your scheduled test. Follow any instructions from your doctor about fasting beforehand.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 500       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>LIVER PANEL TEST&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+               You will be required to fast for up to 12 hours before the test. This means not eating any food or drinking any beverages besides water.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 400       
+                </p>
+              </td>
+        </tr>
+      </table>
+
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id06').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id06').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+    </table>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id07" class="modal" style="background:url('ss32.jpg');background-repeat:y-repeat;background-size:100% 100%;">
+  <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php" style="text-align:right;background-image: url('ss32.jpg');border-color:#24305e;border-width: 2px;">
+    <div class="container">
+       <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+        <tr>
+          <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>BLOOD CELLS TEST&nbsp</b>
+            <input type="checkbox" required/><br>
+            <p><b>Pre Test Information:</b><br>
+                 No special preparation is required for the test.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+              <td style="box-shadow:5px 10px 18px #888888;text-align:justify;width:50%;"><b>COMPLETE BLOOD PICTURE TEST&nbsp</b>
+            <input type="checkbox"/><br>
+            <p><b>Pre Test Information:</b><br>
+                 No special preparation is required for the test.</p>
+                <p>
+                   Report Delivery: 
+                    Same Day<br> 
+                     ₹ 300       
+                </p>
+              </td>
+        </tr>
+      </table>
+
+      <div class="clearfix">
+        <table  style="width:190%;" cellspacing="20px" cellpadding="50px">
+          <tr>
+            <td colspan="2">
+        <button type="button" style="padding:20px;" onclick="document.getElementById('id07').style.display='none'" class="cancelbtn"><b>Cancel</b></button>
+        <a href="Bloodtest Details.html"><button type="button" style="padding:20px;" onclick="document.getElementById('id07').style.display='none'" class="deletebtn"><b>Confirm &Checkout</b>
+        </button></a>
+      </td>
+    </tr>
+    </table>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<script>
+var modal = document.getElementById('id01');
+var modal = document.getElementById('id02');
+var modal = document.getElementById('id03');
+var modal = document.getElementById('id04');
+var modal = document.getElementById('id05');
+var modal = document.getElementById('id06');
+var modal = document.getElementById('id07');
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+function myFunction() {
+var x = document.getElementById("myCheck").required;
+}
+</script>
+
+	</body>
+</html>

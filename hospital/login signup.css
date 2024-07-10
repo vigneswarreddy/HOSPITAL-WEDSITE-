@@ -1,0 +1,345 @@
+body
+{
+	font-size: 50;
+	font-style: helvetica;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: center center ;
+	background-size:100% 100%;
+	color: white;
+	background-color: white;
+  background-image:url('ss15.jpeg');
+}
+marquee
+{
+	background-color:RED;
+	font-size: 25;
+}
+.s
+{
+	margin:100px 250px;
+	box-shadow: 5px 10px 18px #888888;
+	color: #24305E;
+	margin-left: auto; 
+  margin-right: auto;
+  margin-top:10;
+}
+.s1
+{
+  margin:-90px 250px;
+  color: #24305E;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color:rgb(36,48,94,0.6);
+}
+.l{
+	margin:-1px 250px;
+	box-shadow: 5px 10px 18px #888888;
+	color: #24305E;
+	margin-left: auto; 
+  margin-right: auto;
+}
+.p1
+{
+	margin:3px 250px;
+	color: #24305E;
+	margin-left: auto; 
+  margin-right: auto;
+  margin-top:10;
+}
+td
+{
+		text-align: center;
+}
+input
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20;
+  border: 2px solid #24305E;
+  background-color: white;
+  color:#24305E ;
+  border-radius:4px;
+  border: 2px solid #24305E;
+  
+}
+#k 
+{
+	width: 30%;
+	padding :16 px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #24305E;
+  color:white;
+  text-align:center;
+}
+ #state
+ {
+background-color: #24305E;
+color:WHITE;
+padding:20px;
+margin-top:20px;
+font-size:20px;
+text-align: center;
+margin-right:auto;
+margin-left:-9px;
+ }
+ 
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:  #24305E;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+
+.button:active {
+  background-color: #24305E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+select{ 
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: #24305E;
+  border: none;
+  border-radius: 10px;
+}
+
+.m{
+  margin:-1px 250px;
+  color: #24305E;
+  margin-left: auto; 
+  margin-right: auto;
+}
+#g{ 
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: #24305E;
+  border: none;
+  border-radius: 10px;
+}
+#g:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#reciever {
+  background-color:#24305e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  BORDER: 2px solid #24305e;
+}
+
+#reciever {
+  background-color: white; 
+  color: black; 
+}
+
+#reciever:hover {
+  background-color: #24305e;
+  color: white;
+}
+
+
+
+.modal {
+            display:none; 
+            position: fixed;
+            z-index: 1;
+            padding:0px;
+            left: 0;
+            top:-45px;
+            width: 100%; 
+            height: 105%; 
+            overflow: auto; 
+            background-color:white;
+            background-image: url('https://previews.123rf.com/images/goodstudio/goodstudio1908/goodstudio190800083/128439956-collection-of-cute-funny-men-and-women-sitting-in-chairs-and-donating-blood-and-doctors-collecting-i.jpg');
+            background-repeat:no-repeat;
+            background-position: bottom;
+        }
+
+        .modal-content {
+            margin-left: auto;
+             margin-right: auto;
+            width:45%;
+            height:110%;
+            color: #24305e;
+            text-align: center;
+            animation-name: animatetop;
+            animation-duration: 2s;
+            text-align: center;
+            padding-left: 50px;
+        }
+
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: relative;
+            margin: 45px 30px;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @keyframes animatetop {
+       from {top: -300px; opacity: 0}
+        to {top:500; opacity:1.0}
+        }
+.container {
+  padding: 16px;
+  text-align:left;
+  width:50%;
+}
+
+
+.donor {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background:url('https://previews.123rf.com/images/goodstudio/goodstudio1908/goodstudio190800083/128439956-collection-of-cute-funny-men-and-women-sitting-in-chairs-and-donating-blood-and-doctors-collecting-i.jpg');
+  padding-top: 50px;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: #24305e;
+  font-size: 40px;
+}
+
+#p1
+{
+font-size: 30px;
+margin: 0px;
+padding: 10px;
+}
+
+
+
+.zoomA {
+  width:300px;
+  height:200px;
+  border-radius: 8%;
+  transition: transform ease-in-out 0.3s;
+}
+.zoomA:hover {
+  transform: scale(1.5);
+}
+
+
+.circle {
+  height: 340px;
+  width: 340px;
+  background-color:deeppink;
+  border-radius: 50%;
+}
+
+
+.c {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.c:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  color: black;
+  display: hidden;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top:-30px;
+  right:-10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  display: hidden;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height:38%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
